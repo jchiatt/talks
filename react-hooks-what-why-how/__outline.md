@@ -11,18 +11,27 @@
    - Shared Component Logic
      - Why / examples
    - History
-     - Mixins
-     - HOCs
+     - Mixins / createClass
+     - HOCs / classes
      - Render Props
    - Why Hooks are better
      - What about classes?
 
 1. How?
 
+   - Rules of Hooks
    - Common Hooks
-     - Examples
+     - useState
+     - useEffect
+     - useContext
    - Other Hooks
-     - Examples
+     - useMemo
+     - useCallback
+     - useReducer
+     - useRef
+     - useLayoutEffect
+     - useImperativeHandle
+     - useDebugValue
    - Custom Hooks
      - Examples
 
