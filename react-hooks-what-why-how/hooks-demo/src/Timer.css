@@ -1,0 +1,46 @@
+.Timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  border: 2px solid #0984e3;
+  border-radius: 8px;
+  padding: 4rem;
+  background-color: #0984e3;
+}
+
+.Timer__count {
+  color: #dfe6e9;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.Timer__controls {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+}
+
+.button {
+  border: 1px solid #00cec9;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  background-color: #00cec9;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #00b894;
+}
+
+.button--active {
+  background-color: #00b894;
+}
+
+.button--active:hover {
+  background-color: #ff7675;
+}
