@@ -28,17 +28,19 @@
   border-radius: 4px;
   padding: 0.25rem 0.5rem;
   background-color: #00cec9;
-  color: white;
+  color: #fff;
   font-size: 1.5rem;
   font-weight: 700;
 }
 
 .button:hover {
   background-color: #00b894;
+  color: #fff;
 }
 
 .button--active {
-  background-color: #00b894;
+  background-color: #f4e621;
+  color: #333;
 }
 
 .button--active:hover {

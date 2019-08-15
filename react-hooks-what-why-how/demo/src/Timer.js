@@ -1,12 +1,13 @@
 import React from 'react';
+import './Timer.css';
 
 export default function Timer() {
   return (
-    <div>
-      <div>0s</div>
-      <div>
-        <button>Start</button>
-        <button>Reset</button>
+    <div className="Timer">
+      <div className="Timer__count">0s</div>
+      <div className="Timer__controls">
+        <button className="button">Start</button>
+        <button className="button">Reset</button>
       </div>
     </div>
   )
