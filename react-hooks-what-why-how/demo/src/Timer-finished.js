@@ -1,9 +1,9 @@
 import React, { useState, useEffect} from 'react';
 import './Timer.css';
 
-function Timer() {
-  const [seconds, setSeconds] = useState(0);
-  const [isActive, setIsActive] = useState(false);
+function useTimer(initialSeconds = 0, isAlreadyActive = false) {
+  const [seconds, setSeconds] = useState(initialSeconds);
+  const [isActive, setIsActive] = useState(isAlreadyActive);
 
   function toggle() {
     setIsActive(!isActive);
@@ -25,6 +25,12 @@ function Timer() {
     }
     return () => clearInterval(interval);
   }, [isActive, seconds]);
+
+  return [seconds, isActive, toggle, reset];
+}
+
+function Timer() {
+  const [seconds, isActive, toggle, reset] = useTimer();
 
   return (
     <div className="Timer">
