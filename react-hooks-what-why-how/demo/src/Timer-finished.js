@@ -29,8 +29,21 @@ function useTimer(initialSeconds = 0, isAlreadyActive = false) {
   return [seconds, isActive, toggle, reset];
 }
 
-function Timer() {
+function useLogging(dep) {
+  useEffect(() => {
+    console.log(`new value: ${dep}`);
+  }, [dep])
+}
+
+function useTimerWithLogging() {
   const [seconds, isActive, toggle, reset] = useTimer();
+  useLogging(seconds);
+
+  return [seconds, isActive, toggle, reset];
+}
+
+function Timer() {
+  const [seconds, isActive, toggle, reset] = useTimerWithLogging();
 
   return (
     <div className="Timer">
