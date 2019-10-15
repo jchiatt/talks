@@ -6,9 +6,6 @@ Got a question? See an issue? Help me out by filing an issue or opening a PR!
 
 ## Upcoming Talks
 
-- September 14, 2019: [JSCamp Chicago](https://www.chicagojscamp.org/speakers), Chicago, IL — *Pass the interview! Common questions and answers for frontend positions*
-- October 16, 2019: [DevUp Conference](https://www.devupconf.org/), St. Louis, MO — *React Hooks: The what, why, and how*
-- October 16, 2019: [DevUp Conference](https://www.devupconf.org/), St. Louis, MO — *Just-in-Time (JIT) Learning*
 - October 17, 2019: [Connect.tech](http://connect.tech/), Atlanta, GA — *React + Gatsby: Smooth as butter, fast as greased lightning!*
 
 ## Previous Talks
